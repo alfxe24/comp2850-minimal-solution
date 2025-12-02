@@ -318,6 +318,7 @@ private suspend fun ApplicationCall.handleEditTask(store: TaskStore) {
         // No-JS: redirect to list (would need edit mode support in index)
         respondRedirect("/tasks")
     }
+
 }
 
 /**
