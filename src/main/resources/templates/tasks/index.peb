@@ -53,7 +53,7 @@
             </p>
             {% endif %}
 
-            <button type="submit">Add Task</button>
+            <button type="submit">Add Task<style>button:hover {background-color: #c62828; outline: 2px solid #861818ff} button:focus {background-color: #c62828; outline: 2px solid #861818ff}</style></button>
         </form>
     </section>
 
